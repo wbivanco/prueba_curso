@@ -7,6 +7,7 @@ CREATE TABLE equipos (
     fecha_creacion DATE DEFAULT CURRENT_DATE
 );
 
+
 -- 2. Crear tabla de Jugadores (Relación 1:N)
 -- Cada jugador pertenece a un equipo [3, 4]
 CREATE TABLE jugadores (
